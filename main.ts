@@ -1,3 +1,12 @@
+/* 
+  Quick Sort Algorithm
+  TODO:
+    - Randomly find the pivol element 
+    - Compare each element with pivot, if element is smaller than pivot move element to left else move element to right
+    - Recursively compare and move element
+    - merge them together with pivot element [...left, pivot, ...right]
+*/
+
 function quickSort(numbers: number[]): number[] {
 
   // Base case
